@@ -1,0 +1,57 @@
+.nav-item .nav-link{
+    color:black ;
+    /* dfasdfsd */
+}
+#searchbar{
+    background-color: bisque;
+    /* border-radius:10%; */
+}
+/* .col{
+    display: flex;
+    align-items: center;
+} */
+#searchbar-jumbotron{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 40vh;
+    padding-top: auto;
+    padding-bottom: auto;
+}
+/*****photo*****/
+main .jumbotron{
+    background-image: url("../images/beach.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: black;
+    padding: 100px 20px;
+    text-align: center;
+    font-family: sans-serif;
+    height: 80vh;
+    
+}
+
+.infront {
+    /* background-color: white; */
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    height: 100%;
+    width: 40%;
+        
+  
+}
+/****** card section ******/
+.col > .card{
+    min-height: 50vh;
+    margin:0 auto ;
+} 
+.card>.card-img-top{
+    height: 350px;
+    border-radius:2rem 2rem 0 0;
+}
+.card-body .card-title{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
